@@ -1,0 +1,4 @@
+clear
+clc
+I = imread ("image.tif")
+B = 1 - im2bw(I);
